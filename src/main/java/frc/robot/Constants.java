@@ -126,4 +126,18 @@ public final class Constants {
         public static final double CAPTURE_LATENCY = 11; // ms
         public static final Translation2d CAMERA_OFFSET = new Translation2d(0.3, 0.0); // in meters
     }
+
+    public static final class ParallelogramConstants {
+        public static final double SIDE_LONG_LENGTH = -1;
+        public static final double SIDE_SHORT_LENGTH = -1;
+
+        public static final int MOTOR_PORT = -1;
+
+        public static final int Kp = -1;
+        public static final int Ki = -1;
+        public static final int Kd = -1;
+        
+
+        
+    }
 }
